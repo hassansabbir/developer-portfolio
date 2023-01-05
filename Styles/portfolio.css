@@ -1,7 +1,28 @@
 *{
+    margin: 0;
     font-family: 'Open Sans', sans-serif;;
 }
 
+.primary-color {
+    color:  #FD6E0A;
+}
+
+.butt-primary {
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    
+    font-weight: bold;
+}
+
+.header {
+    background-color:#f7f2ee ;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 
 /* header and navigation style */
 
@@ -14,18 +35,89 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 75px;
+    margin: 50px 120px;
 }
 nav ul {
     display: flex;
+    align-items: center;
     
 }
 
 nav li{
     list-style: none;
-    margin-right: 20px;
+    margin-right: 40px;
     
 }
-.primary-color {
-    color:  #FD6E0A;
+/* banner styles */
+
+.banner {
+    margin: 0 120px ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-title {
+    font-size: 45px;
+    margin-top: 0;
+}
+.banner-sub-title {
+    color: gray;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.heading-discription {
+    margin: 15px 0;
+    color: gray;
+}
+.contact-butt {
+    color: #FD6E0A;
+    padding: 8px 18px;
+    background-color: #f7f2ee;
+    border-color: #FD6E0A;
+    border-radius: 6px;
+}
+
+/* main styles */
+
+main {
+    max-width: 1140px;
+    margin: 200px 200px;
+}
+
+/* about section styles */
+.about {
+     background-color: #f7f2ee;
+     text-align: center;
+     font-weight: 600px;
+     padding: 150px 0;
+    
+}
+
+.about-title {
+     padding-top: 0px;
+     font-weight: bold;
+     font-size: 25px;
+}
+
+.about-description {
+    padding: 30px 220px;
+    color: gray;
+    font-size: 16px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 220px;
+}
+.info-title {
+    color: gray;
+
+}
+.info-description {
+    font-weight: bolder;
+
+
 }
